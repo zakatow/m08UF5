@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: green;
+}
+
+label{
+    color: blue;
+    font-style: italic;
+}
+legend{
+    font-weight: bold;
+    text-decoration-line: underline;1
+}
+.box{
+    color: red;
+    font-style: italic;
+}
+.radio{
+    color: orange;
+    font-style: italic;
+}
+#uno{
+    background-color: sandybrown;
+}
+#dos{
+    background-color: aquamarine;
+}
+#tres{
+    background-color: pink;
+}
+#cuatro{
+    background-color:skyblue;
+}
+#cinco{
+    background-color: grey;
+}
