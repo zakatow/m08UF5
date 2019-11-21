@@ -1,0 +1,35 @@
+table, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    margin: auto;
+}
+.columna1{
+    width: 300px;
+    height: 300px;
+}
+.columna2{
+    height: 300px;
+}
+.imagen{
+    width: 300px;
+    height: 300px;
+}
+.video{
+    width: 600px;
+    height: 300px;
+}
+label, p{
+    text-align: center;
+}
+#rubik{
+    font-family: 'Rubik', sans-serif;
+}
+#aton{
+    font-family: 'Anton', sans-serif;
+}
+#caveat{
+    font-family: 'Caveat', cursive;
+}
+#lucki{
+    font-family: 'Luckiest Guy', cursive;
+}
