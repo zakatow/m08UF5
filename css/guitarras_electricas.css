@@ -8,18 +8,14 @@ table{
 td{
     border: 2px solid;
 }
-label, p{
+p{
     text-align: center;
 }
-.columna1{
+.columna1,.imagen{
     width: 300px;
     height: 300px;
 }
 .columna2{
-    height: 300px;
-}
-.imagen{
-    width: 300px;
     height: 300px;
 }
 .video{
