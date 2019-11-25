@@ -1,0 +1,25 @@
+#imatge{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+#elefante{
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+#mono{
+    position: relative;
+    top: 200px;
+    right: 200px;
+}
+#tigre{
+    position: relative;
+    top: 300px;
+    right: 300px;
+}
+#timon{
+    position: relative;
+    top: 400px;
+    right: 400px;
+}
+
