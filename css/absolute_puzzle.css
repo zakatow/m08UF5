@@ -1,0 +1,99 @@
+#div_padre{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+#div1{
+    width: 394px;
+    height: 94px;  
+    border: 1px solid black;
+    position: absolute; left: 10px;
+    position: absolute; top: 10px;
+}
+#div2{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 411px;
+    position: absolute; top: 10px;
+}
+#div3{
+    width: 194px;
+    height: 194px;  
+    border: 1px solid black;
+    position: absolute; left: 10px;
+    position: absolute; top: 110px;
+}
+#div4{
+    width: 194px;
+    height: 294px;  
+    border: 1px solid black;
+    position: absolute; left: 210px;
+    position: absolute; top: 110px;
+}
+#div5{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 411px;
+    position: absolute; top: 110px;
+}
+#div6{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 411px;
+    position: absolute; top: 209px;
+}
+#div7{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 10px;
+    position: absolute; top: 310px;
+}
+#div8{
+    width: 194px;
+    height: 194px;  
+    border: 1px solid black;
+    position: absolute; left: 411px;
+    position: absolute; top: 311px;
+}
+#div9{
+    width: 194px;
+    height: 194px;  
+    border: 1px solid black;
+    position: absolute; left: 10px;
+    position: absolute; top: 411px;
+}
+#div10{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 210px;
+    position: absolute; top: 411px;
+}
+#div11{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 210px;
+    position: absolute; top: 511px;
+}
+#div12{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 411px;
+    position: absolute; top: 511px;
+}
+.negro{
+    background-color: black;
+}
+.aguacate{
+    background-color: yellowgreen;
+}
+.verde{
+    background-color: forestgreen;
+}
+

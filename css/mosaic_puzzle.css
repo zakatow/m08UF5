@@ -1,0 +1,105 @@
+#div_padre{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+#div1{
+    width: 394px;
+    height: 94px;  
+    border: 1px solid black;
+    position: absolute; left: 10px;
+    position: absolute; top: 10px;
+    background-image: url("../imagenes/apaisada.jpg");
+}
+#div2{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 411px;
+    position: absolute; top: 10px;
+    background-image: url("../imagenes/yoda.png");
+}
+#div3{
+    width: 194px;
+    height: 194px;  
+    border: 1px solid black;
+    position: absolute; left: 10px;
+    position: absolute; top: 110px;
+    background-image: url("../imagenes/rana.jpg");
+}
+#div4{
+    width: 194px;
+    height: 294px;  
+    border: 1px solid black;
+    position: absolute; left: 210px;
+    position: absolute; top: 110px;
+    background-image: url("../imagenes/perro.jpeg");
+}
+#div5{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 411px;
+    position: absolute; top: 110px;
+    background-image: url("../imagenes/marge.png");
+}
+#div6{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 411px;
+    position: absolute; top: 209px;
+    background-image: url("../imagenes/jake.png");
+}
+#div7{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 10px;
+    position: absolute; top: 310px;
+    background-image: url("../imagenes/shrek.png");
+}
+#div8{
+    width: 194px;
+    height: 194px;  
+    border: 1px solid black;
+    position: absolute; left: 411px;
+    position: absolute; top: 311px;
+    background-image: url("../imagenes/papa.png");
+}
+#div9{
+    width: 194px;
+    height: 194px;  
+    border: 1px solid black;
+    position: absolute; left: 10px;
+    position: absolute; top: 411px;
+    background-image: url("../imagenes/zacarias.jpg");
+}
+#div10{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 210px;
+    position: absolute; top: 411px;
+    background-image: url("../imagenes/elmo.png");
+}
+#div11{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 210px;
+    position: absolute; top: 511px;
+    background-image: url("../imagenes/pablo.png");
+}
+#div12{
+    width: 194px;
+    height: 94px;
+    border: 1px solid black;
+    position: absolute; left: 411px;
+    position: absolute; top: 511px;
+    background-image: url("../imagenes/pedro.png");
+}
+div>div:hover {
+    opacity: 0.4;
+    border:20px solid purple;    
+}
