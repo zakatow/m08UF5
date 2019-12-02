@@ -1,7 +1,6 @@
 #div_padre{
     width: 600px;
     height: 600px;
-    border: 1px solid black;
 }
 #div1{
     width: 394px;
@@ -99,7 +98,7 @@
     position: absolute; top: 511px;
     background-image: url("../imagenes/pedro.png");
 }
-div>div:hover {
+.enlace:hover {
     opacity: 0.4;
     border:20px solid purple;    
 }
