@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+#padre{
+    width: 100%;
+    height: 100%;
+}
+#div1{
+    width: 100%;
+    height: 200px;
+    background-color: #7D3580;
+    border-bottom: white 5px ridge;
+}
+#caja{
+    width: 100%;
+    height: 700px;
+    border-bottom: white 5px ridge;
+}
+#div2{
+    width: 25%;
+    height: 700px;
+    background-color: #193BB4;
+    float: left;
+}
+#div3{
+    width: 50%;
+    height: 700px;
+    background-color: #1990B4;
+    float: left;
+}
+#div4{
+    width: 25%;
+    height: 700px;
+    background-color: #193BB4;
+    float: right;
+}
+#div5{
+    width: 100%;
+    height: 9.5%;
+    background-color: #7C5680;
+    position: absolute;
+}
+#logo{
+    width: 170px;
+    height: 170px;
+    margin-left: 10px;
+    filter: drop-shadow(5px 5px 10px black);
+    float: left;
+    margin-top: 15px;
+}
+h1{
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    font-size: 70px;
+}
+#texto{
+    margin-left: 2em;
+}
+#pie{
+    margin: 0%;
+}
+ul{
+    list-style:none;
+    margin-top: px;
+}
+ul li a {
+    margin-right: auto;
+    display:block; 
+    width:400px; 
+    height:40px; 
+    background-color:rgb(29, 25, 25); 
+    text-decoration:none; 
+    text-align: center;
+    color:#ffffff; 
+    font-size: 30px;
+    font-family: fantasy;
+}
+li{
+    padding-bottom: 2px;
+}
+ul:hover li:hover a:hover{ 
+    background-color: orange; 
+    color: blueviolet;
+    font-size: 35px;
+}
