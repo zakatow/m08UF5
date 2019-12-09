@@ -1,0 +1,66 @@
+/*1era part */
+#contain_wrapper{
+    width: 900px;
+    margin: auto;
+}
+
+header{
+    background-color: indianred;
+}
+
+.desplazada{
+    width: 25%;
+    height: 50px;
+}
+
+#tituloprincipal{
+    display: inline-block;
+    background-color: aquamarine;
+}
+
+header h1{
+    font-family: serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+header h2{
+    font-family: Verdana, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.desplazada, header h1{
+    display: inline-block;
+    margin-bottom:0px;
+}
+nav{
+    display: inline-block;
+    width: 540px;
+    text-align: right;
+    background-color: orange;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a{
+    font-size: 1.3em;
+    color: color:#181818;
+    padding-bottom:3px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+    border-top : 3px solid #760001;
+
+}

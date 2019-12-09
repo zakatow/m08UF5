@@ -69,13 +69,13 @@ ul{
 ul li a {
     margin-right: auto;
     display:block; 
-    width:400px; 
-    height:40px; 
+    width:515px; 
+    height:30px; 
     background-color:rgb(29, 25, 25); 
     text-decoration:none; 
     text-align: center;
     color:#ffffff; 
-    font-size: 30px;
+    font-size: 20px;
 }
 li{
     padding-bottom: 2px;
@@ -83,5 +83,5 @@ li{
 ul:hover li:hover a:hover{ 
     background-color: orange; 
     color: blueviolet;
-    font-size: 35px;
+    font-size: 25px;
 }
