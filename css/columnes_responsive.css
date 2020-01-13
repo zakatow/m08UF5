@@ -1,0 +1,15 @@
+.c1{
+    height: 40px;
+}
+.c2{
+    height: 90px;
+}
+.c3{
+    height: 60px;
+}
+.c5{
+    height: 20px;
+}
+.c1, .c2, .c3, .c4, .c5{
+    border: black solid 1px;
+}
