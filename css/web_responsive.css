@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#div1{
+    background-color: aqua;
+}
+#div2{
+    background-color: blueviolet;
+    width: 30%;
+    height:;
+    float: left;
+}
+#div3{
+    background-color: brown;
+    width: 70%;
+    height: ;
+    float: right;
+}
+h1{
+    font-size: 100px;
+}
+p{
+font-size: 30px;
+}
+@media screen and (max-width: 768px){
+#div2{
+    width: 100%;
+}
+#div3{
+    width: 100%;
+}
+h1{
+    font-size: 35px;
+}
+}
