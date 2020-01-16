@@ -10,6 +10,34 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Menu horizontal</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menú</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Submenú 1.1</a>
+                    <a class="dropdown-item" href="#">Submenú 1.2</a>
+        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Submenú 1.3</a>
+        </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Menu 2</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Menu 3</a>
+                </li>
+        <button type="button" class="btn btn-light">OK &#10004;</button>
+        <button type="button" class="btn btn-light">KO &#10006;</button>
+                </ul>
+        </div>
+        </nav>     
         <div class="container">
             <div class="div1 row">
                 <h1>Visita Barcelona</h1>
@@ -19,20 +47,21 @@
             <h3>Els nostres patrocinadors</h3>
         </div>
             <div class="align row">
-                <div class="col-3 border"> 	
+                <div class="col-md-3 col-sm-6 col-6 border"> 	
                         <a href="http://www.l-h.cat/"><img src="../imagenes/hospi.png" class="altura marcas"></a>
                 </div>
-                <div class="col-3 border">
+                <div class="col-md-3 col-sm-6 col-6 border">
                     <a href="https://www.proven.cat/intraweb/index.php"><img src="../imagenes/proven.jpg" class="altura marcas "></a>
                 </div>
-                <div class="col-3 border">
+                <div class="col-md-3 col-sm-6 col-6 border">
                     <a href="https://www.netacad.com/es"><img src="../imagenes/cisco.jpg" class="marcas"></a>
                 </div>
-                <div class="col-3 border">
+                <div class="col-md-3 col-sm-6 col-6 border">
                     <a href="http://ensenyament.gencat.cat/ca/inici"><img src="../imagenes/ensenyament.png" class="marcas"></a>
                 </div>
-            </div>
-        <div id="carouselExampleCaptions" class="carousel slide row" data-ride="carousel">
+        </div>
+        <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -78,25 +107,26 @@
                   <span class="sr-only">Next</span>
                 </a>
         </div>
+        </div>
         <div class="row">
-            <div class="col-9 divizq">
+            <div class="col-md-9 col-sm-9 col-6 divizq">
                 <h2>Columna Izquierda</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="col-3 divder">
+            <div class="col-md-3 col-sm-3 col-6 divder">
                 <h2>Columna Derecha</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-3 amarillo"><h2>Columna 1</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-            <div class="col-3 azul"><h2>Columna 2</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-            <div class="col-3 amarillo"><h2>Columna 3</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-            <div class="col-3 azul"><h2>Columna 4</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            <div class="col-md-3 col-sm-6 col-12 amarillo"><h2>Columna 1</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            <div class="col-md-3 col-sm-6 col-12 azul"><h2>Columna 2</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            <div class="col-md-3 col-sm-6 col-12 amarillo"><h2>Columna 3</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+            <div class="col-md-3 col-sm-6 col-12 azul"><h2>Columna 4</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
         </div>
-        <div class="pie row">
-            <h3>Pie</h3>
-        </div>
+        <footer class="pie row">
+            <p class="pieh3">Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie Pie </p>
+        </footer>
         </div>
     </body>
 </html>
