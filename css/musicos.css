@@ -5,15 +5,23 @@ h1{
 }
 article{
     border: 3px black solid;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 40px; 
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
 }
+h4, h5{
+    font-weight: bold;
+}
+a, a:hover{
+    color: black;
+}
+
 #card{
+    color: black;
     width: 266px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -22,7 +30,37 @@ article{
     position: relative;
     float: left;
     margin-right: 15px;
+    background-color: rgb(138, 29, 29);
 }
 p{
     margin: 0;
+}
+.albumes{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.disponible{
+    width: 100%;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+table{
+    color: black;
+    width: 100%;
+}
+tr{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    height: 30px;
+}
+.music{
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+}
+#cardcontainer{
+    margin-bottom: 20px;
+}
+iframe{
+    width: 100%;
 }
