@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(94, 94, 94);
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://images.wikia.nocookie.net/__cb13/gorillaz/es/images/5/50/Wiki-background);
 }
 header, section{
     border: 2px black solid;
@@ -42,7 +42,6 @@ li .dropdown-item{
     width: 60%;
     display:block;
     margin:auto;
-
 }
 #colum{
     margin-bottom: 40px;  
