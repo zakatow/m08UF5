@@ -1,0 +1,23 @@
+iframe{
+    
+    box-shadow: 8px 8px 8px black;
+}
+h3{
+    margin-bottom: 34px;
+}
+#card{
+    width: 275px;
+    height: 150px;
+}
+.albumes{
+    height: 100%;
+}
+.fecha{
+    margin-top: 15px;
+}
+.fecha{
+    color: white;
+}
+.enlace{
+    font-weight: bold;
+}
